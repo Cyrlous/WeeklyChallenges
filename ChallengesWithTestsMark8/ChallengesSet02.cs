@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
+using System.Linq;using System.Net.Sockets;
 
 namespace ChallengesWithTestsMark8
 {
@@ -55,7 +56,7 @@ namespace ChallengesWithTestsMark8
             }
             else
             {
-                return 0;
+                return numbers.Min() + numbers.Max();
             }
            
         }
@@ -141,3 +142,4 @@ namespace ChallengesWithTestsMark8
         }
     }
 }
+
