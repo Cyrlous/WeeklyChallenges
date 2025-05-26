@@ -103,10 +103,11 @@ namespace ChallengesWithTestsMark8
         {
             var factorial = 1;
 
-            if (number < 1)
+            if (number < 0)
             {
                 throw new ArgumentOutOfRangeException();
             }
+            
             for (int i = 1; i <= number; i++)
             {
                 factorial *= i;
